@@ -1,0 +1,15 @@
+﻿Splint 3.1.2 --- 20 Feb 2018
+
+
+main.c: (in function main)
+main.c:18:9: Unrecognized identifier: user
+  Identifier used in code has not been declared. (Use -unrecog to inhibit
+  warning)
+main.c:18:15: Unrecognized identifier: hashTable
+main.c:18:25: Unrecognized identifier: HASHSIZE
+main.c:18:9: Statement has no effect: user * hashTable...
+  Statement has no visible effect --- no values are modified. (Use -noeffect to
+  inhibit warning)
+main.c:19:44: Parse Error. (For help on parse errors, see splint -help
+             parseerrors.)
+*** Cannot continue.

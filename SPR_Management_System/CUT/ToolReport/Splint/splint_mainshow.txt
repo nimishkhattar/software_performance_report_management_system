@@ -1,0 +1,13 @@
+﻿Splint 3.1.2 --- 20 Feb 2018
+
+
+mainshow.c:4:18: Cannot find include file main.h on search path:
+                    /usr/include/x86_64-linux-gnu;/usr/include
+  Preprocessing error. (Use -preproc to inhibit warning)
+mainshow.c:5:20: Cannot find include file struct.h on search path:
+                    /usr/include/x86_64-linux-gnu;/usr/include
+mainshow.c:6:18: Cannot find include file log.h on search path:
+                    /usr/include/x86_64-linux-gnu;/usr/include
+Preprocessing error for file: /home/happy/Downloads/spr_msys/src/show_spr/mainsh
+                    ow.c
+*** Cannot continue.

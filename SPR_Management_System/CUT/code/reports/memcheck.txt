@@ -1,0 +1,10 @@
+==323627==
+==323627== HEAP SUMMARY:
+==323627==     in use at exit: 0 bytes in 0 blocks
+==323627==   total heap usage: 139 allocs, 139 frees, 26,917 bytes allocated
+==323627==
+==323627== All heap blocks were freed -- no leaks are possible
+==323627==
+==323627== Use --track-origins=yes to see where uninitialised values come from
+==323627== For lists of detected and suppressed errors, rerun with: -s
+==323627== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from- 0)
