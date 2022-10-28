@@ -190,7 +190,7 @@ int show_defect(spr **defect)
         spr* newspr = (spr*)calloc (1, sizeof(spr));
         printf("which filter you want to use?\n");
         printf("\t1. Show all defects\n \t2. Filter according to product\n \t3. Filter according to creator\n \t4. Filter according to assignee\n \t5. Filter according to severity\n \t6. Filter according to priority\n \t7. Filter according to status\n");
-        printf("Enter your choice :- ")
+        printf("Enter your choice :- ");
         do{
         scanf("%d",&answer);
         switch (answer){
